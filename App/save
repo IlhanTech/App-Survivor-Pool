@@ -1,0 +1,13 @@
+firebase.initializeApp({
+  apiKey: 'AIzaSyBDiSgHZwz9d7JOjPOpYxBESwlhx3KLuas',
+  authDomain: 'survivornext-90924.web.app',
+  projectId: 'survivornext-90924',
+  storageBucket: 'survivornext-90924.appspot.com',
+  messagingSenderId: '685471478393',
+});
+
+firebase.messaging().send({
+  title: 'Titre de la notification',
+  body: 'Corps de la notification',
+  badge: 1,
+});
